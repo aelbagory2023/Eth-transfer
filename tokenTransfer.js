@@ -13,7 +13,7 @@ const senderPrivateKey = "0bb003fa69e42c9c110ccd18a931cf47fe5e10f72ac5165e67c3c2
 const wallet = new ethers.Wallet(senderPrivateKey, provider);
 
 // Step 3: Set up the recipient address and amount
-const recipientAddress = "0xD47cA6282A48cfc125100A9B0f795f589dDAfbAB"; // Replace with the recipient's address
+const recipientAddress = "0x8CA5ef709dDC88192078DaC19211eF5f7bD2123A"; // Replace with the recipient's address
 const tokenContractAddress = "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"; // Replace with the ERC-20 token contract address
 const amountInTokens = ethers.utils.parseUnits("10.0", 18); // Replace with the amount of tokens to send
 
